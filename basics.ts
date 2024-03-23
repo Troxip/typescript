@@ -39,3 +39,15 @@ let course: string | number = "React - The complete guide";
 
 course = 12341;
 console.log(course);
+
+// Functions & types
+
+function add(a: number, b: number) {
+  return a + b;
+}
+
+function printOutput(value: any) {
+  console.log(value);
+}
+
+// Generics
